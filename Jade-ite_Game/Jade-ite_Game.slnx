@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Jade-ite_Game/Jade-ite_Game.vcxproj" />
+  <Project Path="Jade-ite_Game/Jade-ite_Game.vcxproj" Id="2debcbab-19aa-4ade-b71e-1ba6b2c9a2c9" />
 </Solution>
