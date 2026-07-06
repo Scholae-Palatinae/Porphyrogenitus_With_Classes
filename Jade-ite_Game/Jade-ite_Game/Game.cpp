@@ -41,6 +41,7 @@ void Game::Run()
 
 	while(m_bIsRunning)
 	{
+		std::cout << "Byzantinlidhs\n";
 		ProcessInputs();
 		Update();
 		Draw();
