@@ -1,5 +1,6 @@
 #include "Game.h"
 #include <iostream>
+#include "Logger.h"
 
 bool Game::Init()
 {
@@ -8,18 +9,18 @@ bool Game::Init()
 
 void Game::ProcessInputs()
 {
-	std::cout << "Process Inputs\n";
+	TRPG_LOG("Process Inputs");
 }
 
 void Game::Update()
 {
-	std::cout << "Update\n";
+	TRPG_ERROR("Update");
 
 }
 
 void Game::Draw()
 {
-	std::cout << "Draw\n";
+	TRPG_LOG("Draw");
 
 }
 
