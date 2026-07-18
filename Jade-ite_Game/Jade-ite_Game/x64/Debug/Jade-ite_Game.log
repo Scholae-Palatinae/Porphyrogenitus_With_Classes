@@ -1,3 +1,6 @@
-﻿  Logger.cpp
+﻿  Console.cpp
+D:\Porphyrogennitos RPG\Porphyrogenitus_EXP\Porphyrogenitus_with_classes\Jade-ite_Game\Jade-ite_Game\Console.cpp(7,16): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Porphyrogennitos RPG\Porphyrogenitus_EXP\Porphyrogenitus_with_classes\Jade-ite_Game\Jade-ite_Game\Console.cpp(7,18): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+D:\Porphyrogennitos RPG\Porphyrogenitus_EXP\Porphyrogenitus_with_classes\Jade-ite_Game\Jade-ite_Game\Console.cpp(92,24): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Jade-ite_Game.vcxproj -> D:\Porphyrogennitos RPG\Porphyrogenitus_EXP\Porphyrogenitus_with_classes\Jade-ite_Game\x64\Debug\Jade-ite_Game.exe
   D:\Porphyrogennitos RPG\Porphyrogenitus_EXP\Porphyrogenitus_with_classes\Jade-ite_Game\x64\Debug\Jade-ite_Game.exe: message: deploying dependencies

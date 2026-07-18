@@ -4,24 +4,34 @@
 
 bool Game::Init()
 {
+	try
+	{
+		m_pConsole = std::make_unique <Console>();
+
+	}
+	catch (std::exception& e)
+	{
+		std::string error = e.what();
+		TRPG_ERROR(error);
+		return false;
+	}
 	return true;
 }
 
 void Game::ProcessInputs()
 {
-	TRPG_LOG("Process Inputs");
+
 }
 
 void Game::Update()
 {
-	TRPG_ERROR("Update");
 
 }
 
 void Game::Draw()
 {
-	TRPG_LOG("Draw");
-
+	m_pConsole->Write(10, 10, L"Hello World!", RED);
+	m_pConsole->Draw();
 }
 
 Game::Game()
